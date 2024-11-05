@@ -1,8 +1,8 @@
 name: Ubuntu
 on: [push]
 jobs:
-Ubuntu:
-runs-on: ubuntu-latest
-steps:
-- name: Setup Debug Session
-uses: csexton/debugger-action@master
+  Ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup Debug Session
+      uses: csexton/debugger-action@master
